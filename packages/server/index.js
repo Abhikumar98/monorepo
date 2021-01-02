@@ -1,4 +1,4 @@
-const commonFunction = require("@monorepo/contracts")
+const commonFunction = require("@monorepo/utils")
 
 commonFunction()
 

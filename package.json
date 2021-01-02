@@ -1,4 +1,8 @@
 {
     "private": "true",
-    "workspaces": ["packages/*"]
+    "workspaces": ["packages/*"],
+    "scripts": {
+        "client": "yarn workspace @monorepo/web start",
+        "server": "yarn workspace @monorepo/server start"
+    }
 }
