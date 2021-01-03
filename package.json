@@ -3,6 +3,10 @@
     "workspaces": ["packages/*"],
     "scripts": {
         "client": "yarn workspace @monorepo/web start",
-        "server": "yarn workspace @monorepo/server start"
-    }
+        "server": "yarn workspace @monorepo/server start",
+        "build": "lerna run build"
+    },
+      "devDependencies": {
+        "lerna": "^2.11.0"
+      }
 }
